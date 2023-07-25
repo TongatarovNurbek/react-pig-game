@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+body {
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-image: linear-gradient(to top left, #f90770 0%, #a7bf2e 100%);
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  display: grid;
+  width: 950px;
+  height: 590px;
+  justify-content: center;
+}
+
+.player-1{
+  width: 400px;
+  margin-top: 240px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.player-2{
+  margin-top: -50px;
+  width: 400px;
+  border-radius: 10px;
+  font-size: 30px;
+  height: 50px;
+}
+
+.start {
+  border: 0;
+  border-radius: 20px;
+  height: 60px;
+  margin-left: 100px;
+  background-color: rgb(255, 185, 56);
+  color: white;
+  font-size: 30px;
+  width: 200px;
+}
+
+.box-a {
+  display: flex;
+  width: 950px;
+  height: 590px;
+}
+
+.start:active {
+  transform: scale(0.96);
+}
+
+.player-1:hover , .player-2:hover{
+  background-color: rgb(164, 163, 163);
+}
+
+.start:hover {
+  background-color: rgb(253, 166, 5);
+}
+
+.box-1 {
+  background-color: rgb(247, 193, 202);
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+
+.box-2 {
+  background-color: rgb(192, 91, 106);
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+
+.name-1 {
+  margin-top: 80px;
+  font-size: 58px;
+  font-weight: 600;
+}
+
+.qiymat-1 {
+  margin-top: 40px;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.div-p-1 {
+  height: 150px;
+  width: 250px;
+  background-color: red;
+  margin-left: 110px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+
+.current {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+  color: white;
+}
+
+.ball-1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  margin-top: 30px;
+}
+
+.fa-dice {
+  font-size: 66px;
+  position: absolute;
+  margin-left: 195px;
+  margin-top: -200px;
+  cursor: pointer;
+}
+
+.fa-download {
+  font-size: 60px;
+  margin-left: 208px;
+  cursor: pointer;
+  margin-top: -50px;
+  position: absolute;
+}
+
+.fa-download:active , .fa-dice:active{
+  transform: scale(0.93);
+}
+
+.ranBall {
+  position: absolute;
+  margin-top: -380px;
+  font-size: 120px;
+  margin-left: 422px;
+  font-weight: 600;
+  background-color: white;
+  width: 100px;
+  border-radius: 50px;
+}
+
+button {
+  position: absolute;
+  margin-top: -470px;
+  margin-left: 180px;
+  height: 45px;
+  width: 120px;
+  border: 0;
+  color: white;
+  background-color: rgb(0, 221, 255);
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+button:active {
+  transform: scale(90%);
+  cursor: pointer;
+}
