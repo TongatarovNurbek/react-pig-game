@@ -1,5 +1,5 @@
 import React from 'react';
-import Piggame from './component/pig-game/piggame';
+import Piggame from './component/piggame';
 import './App.css';
 
 function App() {
